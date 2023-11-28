@@ -5,8 +5,9 @@
     <string name="endereco">Endereço:</string>
     <string name="email">Email:</string>
     <string name="senha">Senha:</string>
-    <string name="candidatura">Motivo da Candidatura</string>
+    <string name="candidatura">Motivo da Candidatura:</string>
     <string name="limpar">Limpar</string>
     <string name="salvar">Salvar</string>
     <string name="finalizar">Finalizar</string>
+    <string name="formteste">FormTeste</string>
 </resources>

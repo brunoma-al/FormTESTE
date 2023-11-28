@@ -15,7 +15,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="177dp"
         android:fontFamily="sans-serif-black"
-        android:text="FormTeste"
+        android:text="@string/formteste"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,34 +109,43 @@
 
     <Button
         android:id="@+id/btnLimpar"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/limpar"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
+        app:layout_constraintEnd_toStartOf="@+id/btnSalvar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editCandidatura" />
 
     <Button
         android:id="@+id/btnSalvar"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="31dp"
+        android:layout_width="175dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="1dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/salvar"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnLimpar"
         app:layout_constraintTop_toBottomOf="@+id/editCandidatura" />
 
     <Button
         android:id="@+id/btnFinalizar"
-        android:layout_width="410dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="172dp"
         android:text="@string/finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="516dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
