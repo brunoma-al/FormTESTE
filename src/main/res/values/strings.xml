@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FormTESTE</string>
+    <string name="nome">Nome:</string>
+    <string name="sobrenome">Sobrenome:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="email">Email:</string>
+    <string name="senha">Senha:</string>
+    <string name="candidatura">Motivo da Candidatura</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
+    <string name="finalizar">Finalizar</string>
 </resources>
