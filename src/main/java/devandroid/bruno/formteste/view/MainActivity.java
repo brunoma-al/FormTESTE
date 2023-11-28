@@ -2,7 +2,6 @@ package devandroid.bruno.formteste.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         editEndereco = findViewById(R.id.editEndereco);
         editEmail = findViewById(R.id.editEmail);
         editSenha = findViewById(R.id.editSenha);
-        editCandidatura = findViewById(R.id.editCandidatura);
+        editCandidatura = findViewById(R.id.editCurso);
 
         btnLimpar = findViewById(R.id.btnLimpar);
         btnSalvar = findViewById(R.id.btnSalvar);
