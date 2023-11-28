@@ -9,13 +9,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.List;
+
 import devandroid.bruno.formteste.R;
 import devandroid.bruno.formteste.controller.Controller;
+import devandroid.bruno.formteste.controller.CursoController;
 import devandroid.bruno.formteste.model.Classe;
+import devandroid.bruno.formteste.model.CursoDesejado;
 
 public class MainActivity extends AppCompatActivity {
 
     Controller controller;
+    CursoController cursoController;
+    List<CursoDesejado> listaCursos;
     Classe objeto;
     EditText editNome;
     EditText editSobrenome;
@@ -35,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
         controller = new Controller(MainActivity.this);
         controller.toString();
+
+        cursoController = new CursoController();
+        listaCursos = cursoController.getListaCursos();
 
         objeto = new Classe();
         controller.buscar(objeto);
