@@ -10,4 +10,5 @@
     <string name="salvar">Salvar</string>
     <string name="finalizar">Finalizar</string>
     <string name="formteste">FormTeste</string>
+    <string name="txt_selecionar">Selecione um curso...</string>
 </resources>
